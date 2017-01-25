@@ -1,2 +1,3 @@
 # Horde5-theme
-Mon theme pour Horde 5, IMP, templete
+Mon theme pour le webmail Horde 5, IMP,
+My templete for Horde 5 webmail 
