@@ -1,0 +1,62 @@
+#horde-head {
+    width: 100%;
+    height: 34px;
+    background-color: #000000;
+    background-image: none;
+    background-repeat: repeat-x;
+    border-bottom: 2px solid #000;
+}
+#horde-version {
+    display: none;
+}
+#horde-logo {
+    float: left;
+    width: 88px;
+    height: 34px;
+    background-image: url("graphics/logo.png");
+    background-repeat: no-repeat;
+}
+#horde-sidebar {
+    background-color: #f5f5f5;
+}
+.horde-subnavi-active, .horde-subnavi:hover {
+    background-image: none;
+    background-color: #ccc;
+}
+
+.horde-point-center-active, .horde-point-left-active, .horde-point-right-active {
+    background-image: none;
+}
+
+.horde-point-arrow-active {
+    background-image: url("graphics/navi-arrow-normal.png");
+}
+
+.horde-navipoint:hover .horde-point-center a {
+    color: #FFF;
+}
+
+.horde-drowdown-str:hover a {
+    color: #FFF;
+}
+
+.horde-new {
+    background-image: none;
+    background-color: #2aa5d6;
+}
+
+.horde-table-header, table.horde-table thead tr, table.horde-table th {
+    background-image: none;
+    background-color: #e0eefd;
+    border-top: 1px solid #bbb;
+}
+.horde-point-center:hover, a.horde-mainnavi:hover, a.horde-mainnavi-active:link, a.horde-mainnavi-active:visited, a.horde-mainnavi-active:active {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* Page d accueil */
+form[action^="https://"] input[type="submit"].horde-default {
+    background-image: none;
+    padding: 2px 4px;
+}

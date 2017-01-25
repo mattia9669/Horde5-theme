@@ -1,0 +1,11 @@
+
+/* Checkbox images */
+.msCheck:hover {
+    background-image: url("../graphics/checkbox_over.png") !important;
+}
+.msCheckOn,
+div.vpRowSelected .msCheck {
+    background-image: url("../graphics/checkbox_on.png");
+}
+
+
